@@ -1,11 +1,15 @@
-import './Footer.css'
+import './Footer.css';
 
-function Footer() {
+function Footer () {
   return (
-    <div>
-      
+    <div className="footer">
+      <div className="footer-container container">
+        <p>
+          All rights Reserved by <a href="https://www.youtube.com/@akhrorweb">Akhror Soliev</a>
+        </p>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
